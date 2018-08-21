@@ -1,6 +1,7 @@
 %h1= @task.title
 %p= @task.description
 %p= @task.company
+%p= @task.category.name
 
 = link_to "Home", root_path
 = link_to "Edit", edit_task_path
